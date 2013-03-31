@@ -1,6 +1,8 @@
 package com.zdycollab.tictactoe;
 
-public class GamePlay {
+import com.badlogic.gdx.Game;
+
+public class GamePlay extends Game{
 	private static char mBoard[];
 	private final static int BOARD_SIZE = 9;
 	private final static int ROW = 3;
@@ -46,6 +48,14 @@ public class GamePlay {
 	private int checkforWinner() {
 		
 		return 0;
+	}
+
+
+
+	@Override
+	public void create() {
+		// TODO Auto-generated method stub
+		
 	}
 
 

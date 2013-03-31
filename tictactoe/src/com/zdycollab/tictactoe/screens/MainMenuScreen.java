@@ -1,8 +1,15 @@
 package com.zdycollab.tictactoe.screens;
 
 import com.badlogic.gdx.Screen;
+import com.zdycollab.tictactoe.TicTacToe;
 
 public class MainMenuScreen implements Screen {
+
+	TicTacToe game;
+	
+	public MainMenuScreen(TicTacToe game) {
+		this.game = game;
+	}
 
 	@Override
 	public void render(float delta) {
