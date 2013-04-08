@@ -2,9 +2,10 @@ package com.zdycollab.tictactoe;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Animation;
-import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
+//import com.badlogic.gdx.graphics.g2d.Animation;
+//import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+//import com.badlogic.gdx.graphics.g2d.TextureRegion;
+//import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
 public class Assets {
@@ -16,10 +17,11 @@ public class Assets {
 	public static void load () {
 		Texture.setEnforcePotImages(false);
 		
-		backgroundTexture = new Texture(Gdx.files.internal("o.png"));
-		backgroundTexture = new Texture(Gdx.files.internal("x.png"));
+		o = new Texture(Gdx.files.internal("o.png"));
+		x = new Texture(Gdx.files.internal("x.png"));
 		backgroundTexture = new Texture(Gdx.files.internal("back.jpg"));
 		
+		skin = new Skin(Gdx.files.internal("data/uiskin.json"));
 		
 	}
 }

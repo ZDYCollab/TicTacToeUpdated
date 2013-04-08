@@ -2,7 +2,7 @@ package com.zdycollab.tictactoe;
 
 import com.badlogic.gdx.Game;
 
-public class GamePlay extends Game{
+public class GamePlay{
 	private static char mBoard[];
 	private final static int BOARD_SIZE = 9;
 	private final static int ROW = 3;
@@ -51,12 +51,12 @@ public class GamePlay extends Game{
 	}
 
 
-
+/*
 	@Override
 	public void create() {
 		// TODO Auto-generated method stub
 		
 	}
-
+*/
 
 }
