@@ -75,7 +75,7 @@ public class MainMenuScreen implements Screen {
 
 			@Override
 			public boolean handle(Event event) {
-				game.setScreen(new optionScreen(game));
+				game.setScreen(new GameScreen(game));
 				return true;
 			}
 		});

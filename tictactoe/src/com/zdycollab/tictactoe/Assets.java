@@ -11,7 +11,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 public class Assets {
 	public static Texture o;
 	public static Texture x;
-	public static Texture backgroundTexture;
+	public static Texture backgroundTexture,anotherBackground;
 	public static Skin skin;
 	
 	public static void load () {
@@ -20,6 +20,7 @@ public class Assets {
 		o = new Texture(Gdx.files.internal("o.png"));
 		x = new Texture(Gdx.files.internal("x.png"));
 		backgroundTexture = new Texture(Gdx.files.internal("back.jpg"));
+		anotherBackground = new Texture(Gdx.files.internal("anotherback.jpg"));
 		
 		skin = new Skin(Gdx.files.internal("data/uiskin.json"));
 		
